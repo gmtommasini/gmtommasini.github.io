@@ -1,0 +1,44 @@
+@font-face {
+   font-family: "bones";
+   src: url("LmsThisFontIsForTheDogs-7PnR.ttf") format("truetype");
+}
+@font-face {
+   font-family: "kit";
+   src: url("AustieBostKittenKlub.ttf") format("truetype");
+}
+
+#top {
+   position: relative;
+   margin: 0;
+   padding: 0;
+   border: 0;
+   top: 0;
+}
+#header {
+   overflow: hidden;
+   /* background-image: url("img/paws.png"); */
+   background-size: 12vh;
+   background-color: #4d2600;
+   padding: 1vh;
+   color: yellow;
+   position: fixed;
+   width: 100%;
+   min-height: 25px;
+   left: 0;
+   top: 0;
+   height: 10vh;
+   z-index: 10;
+}
+h1 {
+   font-family: kit;
+   margin: 0;
+   text-align: center;
+   font-size: 9vh;
+   min-height: 25px;
+}
+#contact {
+   font-family: Arial, Helvetica, sans-serif;
+   position: absolute;
+   top: 0;
+   right: 0;
+}

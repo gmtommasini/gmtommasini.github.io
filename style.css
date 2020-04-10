@@ -1,0 +1,51 @@
+@import "header.css";
+/* @import "contact.css"; */
+:root {
+   --mainDark: #381c00;
+   --mainLight: #f7d4b0;
+}
+/* @import "catalog.css";
+@import "menu.css"; */
+
+/* Remove the navbar's default rounded borders and increase the bottom margin */
+.navbar {
+   margin-bottom: 0px;
+   border-radius: 0;
+   background-color: #381c00;
+}
+
+/* Remove the jumbotron's default bottom margin */
+.jumbotron {
+   margin-bottom: 40;
+   max-height: 200px;
+   background-color: #f7d4b0;
+   color: #381c00;
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+   background-color: #f7d4b0;
+   padding: 25px;
+}
+
+body {
+   background-image: url("img/paw_light.png");
+}
+
+footer p {
+   font-size: 75%;
+   text-align: right;
+}
+
+.panel-body {
+   text-align: center;
+   height: 30vh;
+}
+
+.imgCat {
+   max-width: 100%;
+   max-height: 100%;
+}
+/* .cartButton {
+   align: right;
+} */
